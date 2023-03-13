@@ -118,11 +118,9 @@ header .links {
 
 .img {
     height: 40rem;
-    width: 43%;
+    width: 75.25rem;
     background-image: no-repeat;
-    background-size: 500px 350px;
-    padding-left: 6rem;
-    
+    margin: 0rem 0rem 15rem 5rem ; 
 }
 .t-container {
     display: flex;
@@ -133,7 +131,7 @@ header .links {
     justify-content: flex-start;
     padding: 2rem 2rem;
     margin: 4rem 5rem;
-    width: 32%;
+    width: 45%;
 }
 .text a {
     padding: 1rem 1rem;
@@ -156,7 +154,7 @@ header .links {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around; 
-    padding: 0% 1%;
+    padding: 2% 1%;
   }
   .g-container div {
     width: 21%;
