@@ -160,7 +160,7 @@ header .links {
   }
   .g-container div {
     width: 21%;
-    height: 16vh;
+    height: 17vh;
     margin: 1% 1%;
     padding: .2rem .2rem;
     background-size: 100%;
@@ -174,13 +174,13 @@ header .links {
     background-image: url('/style/msedge_ucL5VrbuLX.png');
 }
 .box2 {
-    background-image: url('style/Kimi-Lewis-Studio-768x356.jpg');
+    background-image: url('/style/Kimi-Lewis-Studio-768x356.jpg');
 }
 .box3 {
-    background-image: url('style/Alex-Coven-Chicago-Graphic-Design-Web-Development-and-Branding-768x352.jpg');
+    background-image: url('/style/Alex-Coven-Chicago-Graphic-Design-Web-Development-and-Branding-768x352.jpg');
 }
 .box4 {
-    background-image: url('style/Mixd-World-Class-Web-Design-Leeds-768x356.jpg');
+    background-image: url('/style/Mixd-World-Class-Web-Design-Leeds-768x356.jpg');
 }
 .box5 {
     background-image: url('/style/Studio-Schurk-Creatieve-illustratie-en-animatie-studio-in-Rotterdam.-768x356.jpg');
