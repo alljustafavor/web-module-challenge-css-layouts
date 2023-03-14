@@ -214,4 +214,32 @@ footer h3{
     padding: .5rem;
 }
 
-
+@media (max-width: 800px) {
+    header .name {
+        padding-left: 5rem;
+        flex-direction: column;
+    }   
+    header .links {
+        justify-content: center;
+        align-items: center;
+    }
+    .t-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    .text{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+    .img {
+        height: 10%;
+        width: 97%;
+        padding: 0%;
+        margin: 0%;
+    }
+}
