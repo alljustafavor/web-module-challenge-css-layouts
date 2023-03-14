@@ -293,3 +293,54 @@ footer h3{
         align-items: center;
     }
 }
+
+@media (max-width: 500px){
+    
+    header .name {
+
+        flex-direction: column;
+    }   
+    header .links {
+        justify-content: center;
+        align-items: center;
+    }
+    .t-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    .text{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+    .text a{
+        width: 40%;
+    }
+    .img {
+        height: 10%;
+        width: 97%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+.g-container div{
+    width: 80%;
+    height: 20vh;
+    }
+
+footer {
+    justify-content: center;
+}    
+
+footer a{
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
