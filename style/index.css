@@ -114,6 +114,7 @@ header .links {
     justify-content: flex-start;
     align-items: center;
     padding: 2rem 5rem;
+    gap: .5rem;
 }
 
 .img {
@@ -157,10 +158,9 @@ header .links {
     padding: 2% 1%;
   }
   .g-container div {
-    width: 21%;
+    width: 19%;
     height: 19vh;
     margin: 1% 1%;
-    padding: 1rem .2rem;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -168,29 +168,61 @@ header .links {
     border: 2px solid #284B63;
 }
 
+.g-container h3 {
+    background-color: #284B63;
+    color: #fff;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    text-align: center;
+}
+
 .box1 {
     background-image: url('/style/msedge_ucL5VrbuLX.png');
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 0%;
+    
+
 }
 .box2 {
     background-image: url('/style/Kimi-Lewis-Studio-768x356.jpg');
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 1%;
 }
 .box3 {
     background-image: url('/style/Alex-Coven-Chicago-Graphic-Design-Web-Development-and-Branding-768x352.jpg');
+    justify-content: center;
+    align-items: flex-end;
 }
 .box4 {
     background-image: url('/style/Mixd-World-Class-Web-Design-Leeds-768x356.jpg');
+    justify-content: center;
+    align-items: flex-end;
 }
 .box5 {
     background-image: url('/style/Studio-Schurk-Creatieve-illustratie-en-animatie-studio-in-Rotterdam.-768x356.jpg');
+    justify-content: center;
+    align-items: flex-end;
 }
 .box6 {
     background-image: url('/style/What-ToyFight-768x356.jpg');
+    justify-content: center;
+    align-items: flex-end;
 }
 .box7 {
     background-image: url('/style/Home-•-Josh-Miller-768x356.jpg');
+    justify-content: center;
+    align-items: flex-end;
 }
 .box8 {
+    padding: 0%;
+    margin: 0%;
+    width: 10rem;
     background-image: url('/style/Creative-Mints-Design-Agency-768x352.jpg');
+    justify-content: center;
+    align-items: flex-end;
 }
 
 /* footer */
@@ -214,4 +246,101 @@ footer h3{
     padding: .5rem;
 }
 
+@media (max-width: 800px) {
 
+    header .name {
+
+        flex-direction: column;
+    }   
+    header .links {
+        justify-content: center;
+        align-items: center;
+    }
+    .t-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    .text{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+    .text a{
+        width: 30%;
+    }
+    .img {
+        height: 10%;
+        width: 97%;
+        padding: 0%;
+        margin: 0%;
+    }
+    .g-container {
+        gap: 5rem 2rem;
+    }
+    .g-container div{
+        width: 45%;
+    }
+
+    footer a{
+        width: 20%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px){
+    
+    header .name {
+
+        flex-direction: column;
+    }   
+    header .links {
+        justify-content: center;
+        align-items: center;
+    }
+    .t-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+    .text{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+    .text a{
+        width: 40%;
+    }
+    .img {
+        height: 10%;
+        width: 97%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+.g-container div{
+    width: 80%;
+    height: 20vh;
+    }
+
+footer {
+    justify-content: center;
+}    
+
+footer a{
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
